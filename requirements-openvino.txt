@@ -7,3 +7,4 @@ openvino ~= 2024.3.0.dev
 optimum-intel[openvino] >= 1.17.2
 
 triton >= 2.2.0  # FIXME(woosuk): This is a hack to avoid import error.
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
