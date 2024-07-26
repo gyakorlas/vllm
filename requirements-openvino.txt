@@ -7,3 +7,8 @@ openvino ~= 2024.3.0.dev
 optimum-intel[openvino] >= 1.17.2
 
 triton >= 2.2.0  # FIXME(woosuk): This is a hack to avoid import error.
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+transformers>=4.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
